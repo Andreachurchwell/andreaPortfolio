@@ -1,0 +1,15 @@
+/* #header{
+    width: 100vw;
+    height: 15vh;
+    border: 2px solid black;
+} */
+
+
+#header {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 20px; /* Padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: sticky; /* Makes the header stick to the top */
+    top: 0;
+    z-index: 100; /* Ensures it stays above other elements */
+  }

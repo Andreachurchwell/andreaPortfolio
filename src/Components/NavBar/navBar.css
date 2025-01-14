@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.burger-icon {
+  font-size: 30px;
+  cursor: pointer;
+  display: none; /* Hide by default */
+  color: whitesmoke
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: orange; /* Orange hover effect */
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .burger-icon {
+    display: block; /* Show burger icon on mobile */
+  }
+
+  .nav-links {
+    display: none; /* Hide links by default on mobile */
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .nav-links.active {
+    display: block; /* Show links when burger icon is clicked */
+  }
+
+  .nav-item {
+    display: block;
+    padding: 15px;
+  }
+}

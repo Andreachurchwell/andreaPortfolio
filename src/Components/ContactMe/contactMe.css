@@ -1,0 +1,68 @@
+#contactMain {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  padding-top: 145px;
+}
+
+.contact-me-container {
+  background-color: orange; /* Light orange Post-it background */
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: relative;
+}
+
+.contact-me-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #ff6600; /* Darker orange for sticky corner */
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px dotted black;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.input-field:focus {
+  border-color: orange; /* Highlight with orange */
+}
+
+.submit-btn {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333; /* Black button */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: grey; /* Orange hover effect */
+}

@@ -1,0 +1,64 @@
+#resMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 200px
+}
+
+/* Style for the resume container */
+#resume {
+  text-align: center;
+  max-width: 100%;
+  width: 90%; /* Controls the width of the image and button container */
+  margin: 0 auto;
+}
+
+/* Make the resume image responsive */
+#resumePic {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc; /* Optional: Add a border for the image */
+}
+
+/* Style for the download button container */
+#buttonContainer {
+  margin-top: 20px;
+}
+
+/* Style for the button */
+#button {
+  background-color: orange; /* Green button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#button:hover {
+  background-color: orange;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  #resume {
+    width: 100%; /* Ensure resume container takes up full width on small screens */
+    padding: 10px;
+  }
+
+  #resumePic {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Ensure the image is centered */
+  }
+
+  #button {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
