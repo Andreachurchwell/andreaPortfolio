@@ -11,7 +11,10 @@ import Education from './Components/Education/Education.jsx';
 import AboutMe from './Components/AboutMe/AboutMe.jsx';
 import Projects from './Components/Projects/Projects.jsx';
 
+
 import PalindromeChecker from './Components/Projects/pal.jsx';
+import Tenzie from './Components/Projects/tenzie.jsx'
+
 
 function App() {
   return (
@@ -27,7 +30,7 @@ function App() {
         <Route path="/aboutMe" element={<AboutMe />} />
 
         <Route path="/palindrome" element={<PalindromeChecker />} />
-
+        <Route path="/tenzie" element={<Tenzie />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer />

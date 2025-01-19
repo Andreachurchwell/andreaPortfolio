@@ -1,5 +1,6 @@
 import React from 'react';
-import resumePic from '../../../public/resume.png';
+// import resumePic from '../../../public/resume.png';
+import resumePic from '../../assets/resume.png'
 import './resume.css';
 
 const Resume = () => {

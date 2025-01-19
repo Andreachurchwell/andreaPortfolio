@@ -23,7 +23,7 @@ function PalindromeChecker() {
 
   return (
     <div className="mainContainer">
-      <h1>Palindrome Project</h1>
+      <h1>Palindrome Checker</h1>
       <input 
         id="text-input"
         value={textInput}

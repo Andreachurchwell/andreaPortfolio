@@ -1,9 +1,15 @@
+#main {
+  background: linear-gradient(135deg, #e0e0e0, #ffffff);
+  /* padding-top: 100px; Adjust this value based on your navbar height */
+}
+
 .certifications-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     justify-items: center;
     padding: 20px;
+    padding-top: 50px;
   }
   
   .certifications-grid img {
@@ -28,7 +34,7 @@
   /* Media Query for Desktop */
   @media (min-width: 1024px) {
     .certifications-grid {
-      grid-template-columns: repeat(3, 1fr); 
+      grid-template-columns: repeat(4, 1fr); 
     }
   
     .certifications-grid img {
@@ -42,4 +48,10 @@
   }
   #main{
     background: linear-gradient(135deg, #e0e0e0, #ffffff);
+  }
+
+  @media (max-width: 1024px) {
+    #main {
+      padding-top: 350px;
+    }
   }

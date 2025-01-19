@@ -1,160 +1,99 @@
 #education {
-    background-color: #f4f4f4;
-    padding: 40px 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-  }
-  
-  #education h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .education-item {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .education-item h3 {
-    font-size: 1.8rem;
-    color: #2c3e50;
-    margin-bottom: 10px;
-  }
-  
-  .education-item p {
-    font-size: 1rem;
-    color: #7f8c8d;
-    margin: 5px 0;
-  }
-  
-  .education-item ul {
-    list-style-type: none;
-    padding-left: 20px;
-  }
-  
-  .education-item ul li {
-    font-size: 1rem;
-    color: #34495e;
-    margin-bottom: 8px;
-    line-height: 1.5;
-  }
-  
-  .education-item em {
-    font-style: italic;
-    color: #95a5a6;
-  }
-  
-  .education-item strong {
-    font-weight: bold;
-    color: #2c3e50;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    #education {
-      padding: 30px 10px;
-    }
-  
-    .education-item {
-      padding: 15px;
-    }
-  
-    .education-item h3 {
-      font-size: 1.5rem;
-    }
-  }
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  padding-top: 100px; /* Make sure this is necessary, or consider reducing this padding */
+}
+
+#education h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.education-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education-item h3 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin: 5px 0;
+}
+
+.education-item ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.education-item ul li {
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.education-item em {
+  font-style: italic;
+  color: #95a5a6;
+}
+
+.education-item strong {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.education-item img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   #education {
-    background-color: #f4f4f4;
-    padding: 40px 20px;
-    margin: 20px 0;
-    border-radius: 8px;
+    padding: 30px 10px;
+    display: block;
   }
-  
-  #education h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
+
   .education-item {
-    background-color: #fff;
-    padding: 20px;
+    flex-direction: column;
+    width: 100%;
     margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
-  
-  .education-item h3 {
-    font-size: 1.8rem;
-    color: #2c3e50;
-    margin-bottom: 10px;
-  }
-  
-  .education-item p {
-    font-size: 1rem;
-    color: #7f8c8d;
-    margin: 5px 0;
-  }
-  
-  .education-item ul {
-    list-style-type: none;
-    padding-left: 20px;
-  }
-  
-  .education-item ul li {
-    font-size: 1rem;
-    color: #34495e;
-    margin-bottom: 8px;
-    line-height: 1.5;
-  }
-  
-  .education-item em {
-    font-style: italic;
-    color: #95a5a6;
-  }
-  
-  .education-item strong {
-    font-weight: bold;
-    color: #2c3e50;
-  }
-  
+
   .education-item img {
-    max-width: 150px;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
-    margin-left: 20px;
+    margin-left: 0;
+    margin-top: 15px;
+    max-width: 100px;
   }
-  
-  @media (max-width: 768px) {
-    #education {
-      padding: 30px 10px;
-    }
-  
-    .education-item {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .education-item img {
-      margin-left: 0;
-      margin-top: 15px;
-      max-width: 120px;
-    }
-  
-    .education-item h3 {
-      font-size: 1.5rem;
-    }
+
+  .education-item h3 {
+    font-size: 1.5rem;
   }
-  #mainEd{
-    background: linear-gradient(135deg, #e0e0e0, #ffffff);
+
+  .education-item ul {
+    padding-left: 10px;
   }
+}
+
+#mainEd {
+  background: linear-gradient(135deg, #e0e0e0, #ffffff);
+}

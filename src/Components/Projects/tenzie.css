@@ -1,0 +1,38 @@
+#rollBtn {
+    width: 200px;
+}
+
+/* change upper ASaP!!!!! */
+#diceContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    width: 40vw;
+    height: 50vh;
+    background-color: rgb(101, 153, 101);
+    padding: 2%;
+    border: 2px solid navajowhite;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+
+
+;
+
+}
+
+.diceB {
+    border: 2px solid navajowhite;
+
+
+}
+
+#rollBtn {
+    background-color: lightgray;
+    border: 2px solid navajowhite;
+}
+
+.frozen {
+    background-color: lightgray;
+    cursor: not-allowed;
+}

@@ -14,7 +14,7 @@ function Certifications() {
   return (
     <div id='main'>
       <br /><br />
-      <h1>My Certifications</h1>
+      {/* <h1>My Certifications</h1> */}
       <div className="certifications-grid">
         <img src={jtc}alt="Certification 1" />
         <img src={fullStack} alt="Certification 2" />

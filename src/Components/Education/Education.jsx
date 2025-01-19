@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div id='mainEd'>
       <section id="education">
-      <h2>Education</h2>
+      {/* <h2>Education</h2> */}
       <div className="education-item">
         <h3>Persevere Tech Alliance</h3>
         <p><strong>Full-Stack Web Development Bootcamp</strong></p>
