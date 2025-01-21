@@ -1,0 +1,73 @@
+/* Container for the game */
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; /* Space between game board and info */
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #f0f4f8; /* Light background */
+    border: 2px solid #d1d9e6; /* Subtle border */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+/* Game board section */
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #d1d9e6;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Game info section */
+.game-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #d1d9e6;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Moves list */
+.movesInfo {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between moves */
+}
+
+/* Move button */
+#b2 {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3a86ff; /* Bright blue text */
+    background-color: #ffffff; /* White background */
+    border: 2px solid #3a86ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+#b2:hover {
+    background-color: #3a86ff; /* Blue background on hover */
+    color: #ffffff; /* White text on hover */
+    transform: scale(1.1); /* Slight enlargement */
+}
+
+#b2:active {
+    background-color: #ffbe0b; /* Yellow background on click */
+    color: #3a86ff; /* Blue text on click */
+    transform: scale(1.05);
+}

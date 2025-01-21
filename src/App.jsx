@@ -14,7 +14,7 @@ import Projects from './Components/Projects/Projects.jsx';
 
 import PalindromeChecker from './Components/Projects/pal.jsx';
 import Tenzie from './Components/Projects/tenzie.jsx'
-
+import TickTacToe from './Components/Projects/TickTacToe/Game.jsx'
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
 
         <Route path="/palindrome" element={<PalindromeChecker />} />
         <Route path="/tenzie" element={<Tenzie />} />
+        <Route path="/ticktactoe" element={<TickTacToe />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer />

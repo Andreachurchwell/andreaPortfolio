@@ -1,8 +1,28 @@
 #rollBtn {
-    width: 200px;
+    background-color: #4CAF50; /* A nice green shade */
+    color: white; /* White text for contrast */
+    border: none; /* Remove the border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 10px 20px; /* Adjust padding for a better look */
+    font-size: 16px; /* Slightly larger font size */
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer; /* Pointer cursor for hover effect */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add smooth transitions */
+    margin: 0 auto; /* Center horizontally */
+    display: block; 
 }
 
-/* change upper ASaP!!!!! */
+/* Add hover effects */
+#rollBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Add active state */
+#rollBtn:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+    transform: scale(0.95); /* Slightly shrink the button when clicked */
+}
 #diceContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -23,16 +43,17 @@
 
 .diceB {
     border: 2px solid navajowhite;
-
+   
 
 }
 
 #rollBtn {
     background-color: lightgray;
     border: 2px solid navajowhite;
+    
 }
 
 .frozen {
-    background-color: lightgray;
+    background-color: rgb(158, 142, 142);
     cursor: not-allowed;
 }

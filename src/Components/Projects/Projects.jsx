@@ -16,7 +16,7 @@ const Projects = () => {
     <div id="mainProjects">
        {/* <Link to='/quote'>Quote</Link> */}
       {/* <Link to='/passcode'>Passcode</Link> */}
-      {/* <Link to='/ticktactoe'>Ticktactoe</Link> */}
+      <Link to='/ticktactoe'>Ticktactoe</Link>
     
       <Link to='/tenzie'>Tenzie</Link>
       {/* <Link to='/pokemon'>Pokemon</Link> */}

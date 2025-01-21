@@ -4,6 +4,53 @@
   /* display: flex; */
  
 }
+/* Container for the main projects section */
+#mainProjects {
+  display: flex;
+  flex-direction: column; /* Arrange links vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  gap: 20px; /* Space between links */
+  background-color: #f7f7f7; /* Light background color */
+  padding: 30px;
+  border: 2px solid #ddd; /* Subtle border for container */
+  border-radius: 10px; /* Rounded edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px; /* Limit width for a cleaner layout */
+  margin: 20px auto; /* Center the container */
+}
+
+/* Style for individual links */
+#mainProjects a {
+  text-decoration: none; /* Remove underline */
+  color: #3a86ff; /* Bright blue color */
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #3a86ff; /* Matching border color */
+  border-radius: 5px; /* Slightly rounded edges */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for links */
+#mainProjects a:hover {
+  background-color: orange; /* Bright blue background on hover */
+  color: white; /* White text on hover */
+  transform: scale(1.05); /* Slightly enlarge */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  #mainProjects {
+      padding: 20px;
+      gap: 15px;
+  }
+
+  #mainProjects a {
+      font-size: 1rem; /* Slightly smaller text */
+      padding: 8px 15px;
+  }
+}
 
 
 

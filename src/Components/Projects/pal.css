@@ -25,7 +25,7 @@ h1 {
 
 #text-input {
     width: 100%;
-    padding: 10px;
+    padding: 6px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -36,7 +36,7 @@ h1 {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #4CAF50;
+    background-color: royalblue;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -44,7 +44,7 @@ h1 {
 }
 
 #check-btn:hover {
-    background-color: #45a049;
+    background-color: orange
 }
 
 #result {
@@ -53,3 +53,83 @@ h1 {
     font-weight: bold;
     color: #555;
 }
+
+
+
+
+/* 
+
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f4f8; 
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.mainContainer h1 {
+    font-size: 2rem;
+    color: #3a86ff; 
+    margin-bottom: 20px;
+}
+
+#text-input {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #3a86ff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#text-input:focus {
+    border-color: #ffbe0b; 
+    box-shadow: 0 0 5px rgba(255, 190, 11, 0.8);
+}
+
+
+#check-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #3a86ff;
+    border: 2px solid #3a86ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#check-btn:hover {
+    background-color: #ffbe0b; 
+    transform: scale(1.1); 
+}
+
+#check-btn:active {
+    background-color: #f3722c; 
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333; 
+}
+
+#result:contains("Yes") {
+    color: #28a745; 
+}
+
+#result:contains("No") {
+    color: #dc3545; 
+} */

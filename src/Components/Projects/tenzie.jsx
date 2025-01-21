@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-
+import './tenzie.css'
 
 
 
@@ -34,9 +34,9 @@ const Tenzi = () => {
 
 
 
-        <div>
+        <div id='mainTenzie'>
             <h2>Tenzie's</h2>
-            <br />
+            <br /><br /><br /><br />
             <p>Roll until all dice are the same.. Click the die to freeze it at its current value, and roll again.</p>
             <div id='diceContainer'>
 
